@@ -56,7 +56,7 @@ function draw() {
   let emoji;
   if (label == "left") {
     var left = document.getElementById("myAudio");
-    left.playbackRate = 0.7
+    left.playbackRate = 0.5
     left.play();
   } else if (label == "right") {
     var right = document.getElementById("myAudio");

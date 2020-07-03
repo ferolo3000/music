@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+canvas {
+  position: absolute;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  position: relative;
+}
+
+#btn {
+  margin-top: -240px;
+      position: absolute;
+}

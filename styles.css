@@ -18,11 +18,19 @@ footer {
   font-family: sans-serif;
 }
 
-.set {
+.controls {
+  text-align: center;
+  margin-bottom: 420px;
   position: relative;
 }
 
 #btn {
-  margin-top: -240px;
-      position: absolute;
+  margin-top: 240px !important;
+  position: relative;
+}
+
+#myAudio {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: -350px !important;
 }

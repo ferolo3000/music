@@ -2,7 +2,7 @@
 let video;
 let flipVideo;
 // For displaying the label
-let label = "waiting...";
+let label = "Waiting...";
 // The classifier
 let classifier;
 let modelURL = 'https://teachablemachine.withgoogle.com/models/rBkzY4zoB/';
@@ -52,8 +52,7 @@ function draw() {
   fill(255)
   text(label, width / 2, height - 16);
 
-  // Pick an emoji, the "default" is train
-  let emoji;
+
   if (label == "left") {
     var left = document.getElementById("myAudio");
     left.playbackRate = 0.5

@@ -5,7 +5,8 @@ let flipVideo;
 let label = "Waiting...";
 // The classifier
 let classifier;
-let modelURL = 'https://teachablemachine.withgoogle.com/models/rBkzY4zoB/';
+let modelURL = 'https://teachablemachine.withgoogle.com/models/j50ObOL7z/';
+//let modelURL = 'https://teachablemachine.withgoogle.com/models/rBkzY4zoB/';
 
 // STEP 1: Load the model!
 function preload() {
